@@ -14,7 +14,10 @@
  ---PointNet코드는 생략---    
 <br>
  
- >### **학습결과**
+이제부터 PointNet으로 학습데이터를 불러들여 학습 시키기로 해보겠다. 기존코드로 학습한 모습이다. 
+
+
+ >### **모델 학습 결과**
 ```python
 Epoch 10/15
 1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
@@ -31,8 +34,8 @@ Epoch 15/15
 )
 ```
 <br><br>
->### **학습결과**  
-  val_loss 값이 일률적으로 적어지게 하기 위해 옵션값을 조정하였다. Convolution Layer에 Activation Funtion을 ReLU에서 Sigmoid 함수로 변경하였고, Batch Size를 32에서 128로 확대하였음. Optimizers는 기존 Learning Rate를 0.0001에서 기본값으로 진행.<br>
+>### **시각화**  
+학습데이터가 적은 이유인지 PointCloud 데이터의 문제인지 val_loss 값에 계속해서 오버슛팅이 발생하였다. Convolution Layer에 Activation Funtion을 ReLU에서 Sigmoid 함수로 변경하였고, Batch Size를 32에서 128로 확대하였음. Optimizers는 기존 Learning Rate를 0.0001에서 기본값으로 진행.<br>
 <img src = https://user-images.githubusercontent.com/60258130/221104266-a8c86884-38d1-40bd-9ed8-41d9afd715b9.png width = "700px">   
 <br><br>
 >### **분류 결과 이미지**   
