@@ -23,7 +23,7 @@
 
 이제부터 PointNet으로 학습데이터를 불러들여 학습 시키기로 해보겠다. 기존코드로 학습한 모습이다.  
 <br>
->### **PointNet 학습**
+>### **PointNet 학습**  
  <br>
  * **기존 코드로 학습한 모습**  
  이슈 : Val_Loss에 오버슛팅이 발생했다. 제대로 학습이 되지 않아 분류가 되지 않는다.
@@ -48,9 +48,9 @@ Epoch 15/15
 )
 ```
 <br><br>     
-* **시각화**                      
+* **시각화**                        
 <img src = https://user-images.githubusercontent.com/60258130/221104266-a8c86884-38d1-40bd-9ed8-41d9afd715b9.png width = "700px">   
 <br><br>
 
->### **검증**   
+>### **모델 검증**   
 <img src = https://user-images.githubusercontent.com/60258130/221104250-f603c61f-3a4d-44f2-9d4e-adbecd0cafd8.png width = "700px">   
