@@ -12,7 +12,6 @@
  ```
  ---PointNet코드는 생략---
  >### 학습결과***
-<br><br>
 ```python
 Epoch 10/15
 1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
