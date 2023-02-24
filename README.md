@@ -26,6 +26,6 @@ train_points, test_points, train_labels, test_labels, CLASS_MAP = valve_parse_da
 
 
 >### **분류 결과 이미지**   
-<img src = https://user-images.githubusercontent.com/60258130/221104250-f603c61f-3a4d-44f2-9d4e-adbecd0cafd8.png>
+<img src = https://user-images.githubusercontent.com/60258130/221104250-f603c61f-3a4d-44f2-9d4e-adbecd0cafd8.png width = "700px">
 
 
