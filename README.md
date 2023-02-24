@@ -1,13 +1,17 @@
 # PointNet 활용 1단계
 
-활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행.<br><br>
+활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행한다. 이 활용단계에서 테스트해볼 내용은 적은 데이터 셋으로 학습이 가능한지 알아본다.<br>
+학습데이터셋은 3~5개로 지정하려고 했으나 진행과정 중 밸브 타입 중 플랜지를 포함하는 PVC가 존재해서 학습데이터를 2개를 더 늘렸다. 테스트데이터 셋은 1개~2개정도이다.<br>
 
 >### **Class 종류**  
+클래스는 DC_FLANGE와 REDUCER , VALVE 3개의 클래스를 가지고 클래스마다 Train,test셋을 가진다. 
  ```python
  Processing... (클래스 이름) : DC_FLANGE   
  Processing... (클래스 이름) : REDUCER   
  Processing... (클래스 이름) : VALVE
  ```
+ ---PointNet코드는 생략---
+ >### 학습결과***
 <br><br>
 ```python
 Epoch 10/15
