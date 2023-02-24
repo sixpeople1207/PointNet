@@ -10,7 +10,10 @@
  Processing... (클래스 이름) : REDUCER   
  Processing... (클래스 이름) : VALVE
  ```
+<br>
  ---PointNet코드는 생략---
+ <br>
+ 
  >### 학습결과***
 ```python
 Epoch 10/15
