@@ -8,7 +8,7 @@
  Processing... (클래스 이름) : REDUCER   
  Processing... (클래스 이름) : VALVE
  ```
-<br>
+<br><br>
 ```python
 Epoch 10/15
 1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
@@ -23,7 +23,7 @@ Epoch 14/15
 Epoch 15/15
 1/1 [==============================] - 1s 745ms/step - loss: 0.9850 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.4795 - val_sparse_categorical_accuracy: 1.0000
 )
-```   
+```
 <br><br>
 >### **학습결과**  
   val_loss 값이 일률적으로 적어지게 하기 위해 옵션값을 조정하였다. Convolution Layer에 Activation Funtion을 ReLU에서 Sigmoid 함수로 변경하였고, Batch Size를 32에서 128로 확대하였음. Optimizers는 기존 Learning Rate를 0.0001에서 기본값으로 진행.<br>
