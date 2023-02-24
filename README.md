@@ -13,7 +13,7 @@
  ```
  <br>
  폴더구성.
-<img src = "https://user-images.githubusercontent.com/60258130/221112008-bb3afc62-0080-4388-be3f-c7d3d82c861a.PNG" width =400>
+<img src = "https://user-images.githubusercontent.com/60258130/221112008-bb3afc62-0080-4388-be3f-c7d3d82c861a.PNG" width =300>
 
 <br>
 
@@ -22,9 +22,9 @@
 <br>
 
 이제부터 PointNet으로 학습데이터를 불러들여 학습 시키기로 해보겠다. 기존코드로 학습한 모습이다. 
- >### **모델 학습 오버슛팅**
+ >### **기존 코드 학습에 대한 **
  <br>
- <img src="https://user-images.githubusercontent.com/60258130/221111422-dffdd878-7f9f-4cb6-9a96-4c120261892f.png" width = 800>
+ <img src="https://user-images.githubusercontent.com/60258130/221111422-dffdd878-7f9f-4cb6-9a96-4c120261892f.png" width = 600>
 
 
  >### **모델 학습 결과**
