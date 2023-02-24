@@ -1,14 +1,11 @@
 # PointNet 활용 1단계
 
-활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행.   
-
-
-
+활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행.<br><br>
 >### **Class 종류**  
    Processing... (클래스 이름) : DC_FLANGE   
    Processing... (클래스 이름) : REDUCER   
    Processing... (클래스 이름) : VALVE    
-<br>
+<br><br>
 ```python
 train_points, test_points, train_labels, test_labels, CLASS_MAP = valve_parse_dataset(
     NUM_POINTS
