@@ -3,7 +3,7 @@
 활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행.  
 
 >### **Class 종류**  
-Processing... (클래스 이름) : DC_FLANGE  
+> >Processing... (클래스 이름) : DC_FLANGE  
 Processing... (클래스 이름) : REDUCER  
 Processing... (클래스 이름) : VALVE  
 
