@@ -36,6 +36,7 @@
 
 * **원인분석** : 학습데이터가 적은 이유인지 PointCloud 데이터의 문제인지 val_loss 값에 계속해서 오버슛팅이 발생하였다. Convolution Layer에 Activation Funtion을 ReLU에서 Sigmoid 함수로 변경하였고, Batch Size를 32에서 128로 확대하였음. Optimizers는 기존 Learning Rate를 0.0001에서 기본값으로 진행.<br>
 
+
 * **파라미터 변경한 모델 학습 결과**  
 ```python
 Epoch 10/15
