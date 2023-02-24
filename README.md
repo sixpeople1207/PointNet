@@ -2,10 +2,9 @@
 
 활용단계에서는 H-up 3D 데이터를 PointCloud로 변환해 분류해보는 예제를 진행.<br><br>
 >### **Class 종류**  
-      Processing... (클래스 이름) : DC_FLANGE   
-      Processing... (클래스 이름) : REDUCER   
-      Processing... (클래스 이름) : VALVE    
-<br><br>
+ ```Processing... (클래스 이름) : DC_FLANGE   
+    Processing... (클래스 이름) : REDUCER   
+    Processing... (클래스 이름) : VALVE```  
 ```python
 Epoch 10/15
 1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
@@ -28,5 +27,3 @@ Epoch 15/15
 <br><br>
 >### **분류 결과 이미지**   
 <img src = https://user-images.githubusercontent.com/60258130/221104250-f603c61f-3a4d-44f2-9d4e-adbecd0cafd8.png width = "700px">   
-
-
