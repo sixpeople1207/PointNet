@@ -32,7 +32,7 @@
  
 * **기존 코드의 이슈**   
  이슈 : Val_Loss에 오버슛팅이 발생했다. 제대로 학습이 되지 않아 분류가 되지 않는다.
- <img src="https://user-images.githubusercontent.com/60258130/221111422-dffdd878-7f9f-4cb6-9a96-4c120261892f.png" width = 600>
+ <img src="https://user-images.githubusercontent.com/60258130/221111422-dffdd878-7f9f-4cb6-9a96-4c120261892f.png" width = 600><br>
 
 * **원인분석** : 학습데이터가 적은 이유인지 PointCloud 데이터의 문제인지 val_loss 값에 계속해서 오버슛팅이 발생하였다. Convolution Layer에 Activation Funtion을 ReLU에서 Sigmoid 함수로 변경하였고, Batch Size를 32에서 128로 확대하였음. Optimizers는 기존 Learning Rate를 0.0001에서 기본값으로 진행.<br>
 
