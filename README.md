@@ -4,7 +4,8 @@
 >### **Class 종류**  
  ```Processing... (클래스 이름) : DC_FLANGE   
     Processing... (클래스 이름) : REDUCER   
-    Processing... (클래스 이름) : VALVE``<br>
+    Processing... (클래스 이름) : VALVE```
+    <br>
 ```python
 Epoch 10/15
 1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
