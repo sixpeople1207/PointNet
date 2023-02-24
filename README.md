@@ -7,8 +7,18 @@
       Processing... (클래스 이름) : VALVE    
 <br><br>
 ```python
-train_points, test_points, train_labels, test_labels, CLASS_MAP = valve_parse_dataset(
-    NUM_POINTS
+Epoch 10/15
+1/1 [==============================] - 1s 785ms/step - loss: 1.0812 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.5071 - val_sparse_categorical_accuracy: 0.7500
+Epoch 11/15
+1/1 [==============================] - 1s 743ms/step - loss: 0.9652 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.7049 - val_sparse_categorical_accuracy: 0.7500
+Epoch 12/15
+1/1 [==============================] - 1s 747ms/step - loss: 0.9482 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.6542 - val_sparse_categorical_accuracy: 0.7500
+Epoch 13/15
+1/1 [==============================] - 1s 761ms/step - loss: 0.9214 - sparse_categorical_accuracy: 0.8462 - val_loss: 0.9881 - val_sparse_categorical_accuracy: 0.5000
+Epoch 14/15
+1/1 [==============================] - 1s 764ms/step - loss: 0.9644 - sparse_categorical_accuracy: 0.9231 - val_loss: 1.1610 - val_sparse_categorical_accuracy: 0.5000
+Epoch 15/15
+1/1 [==============================] - 1s 745ms/step - loss: 0.9850 - sparse_categorical_accuracy: 0.7692 - val_loss: 0.4795 - val_sparse_categorical_accuracy: 1.0000
 )
 ```   
 <br><br>
