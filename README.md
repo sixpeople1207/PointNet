@@ -29,7 +29,7 @@
 <br>
 >### **PointNet 학습**  
  <br>
- * **기존 코드로 학습한 모습**   
+ * **기존 코드로 학습한 모습**  <br>  
  이슈 : Val_Loss에 오버슛팅이 발생했다. 제대로 학습이 되지 않아 분류가 되지 않는다.
  <img src="https://user-images.githubusercontent.com/60258130/221111422-dffdd878-7f9f-4cb6-9a96-4c120261892f.png" width = 600>
 
