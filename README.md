@@ -5,7 +5,7 @@
 
 
 >### **Class 종류**  
-   Processing... (클래스 이름) : DC_FLANGE  
+   *Processing... (클래스 이름) : DC_FLANGE *
    Processing... (클래스 이름) : REDUCER  
    Processing... (클래스 이름) : VALVE  
    
