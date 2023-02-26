@@ -1,6 +1,6 @@
 # PointNet 활용 1단계
 
-<img src = "https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
 
 PointNet 활용단계에서는 ModelNet에서 제공하는 객체가 아닌 H-up 3D 기자재 데이터를 PointCloud로 변환해 분류해보는 예제를 진행. <br>
 + 적은 학습데이터로 학습이 가능한가. 
